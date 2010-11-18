@@ -464,7 +464,7 @@ The Evaluation Function
 
 The original evaluation function implemented the semantics of non-left-recursive PEGs. To handle the new non-terminal expression types, we need to create a new evaluation function. Our new evaluation function is the same as the original except that, where the original had a single rule for evaluating a non-terminal, the new function has four.
 
-## Normal
+### Normal
 
 The same as a non-terminal in the original evaluation function.
 

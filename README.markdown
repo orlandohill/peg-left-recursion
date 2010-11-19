@@ -1,5 +1,18 @@
-Idea to Support Left-Recursive PEGs
-===================================
+Support for Left-Recursive PEGs
+===============================
+
+The Idea
+--------
+
+The purpose of this work is to produce parsers from left-recursive Parsing Expression Grammars (PEGs). This is done by performing transformations on an abstract representation of the grammar and extending the evaluation function of PEGs. The resulting parsers have the following properties:
+
+* Allow direct left-recursion
+
+* Allow indirect left-recursion
+
+* Produce left-associative ASTs for left-recursive non-terminals
+
+* Optional packrat-parsing-style memoization for linear runtime
 
 
 Notations and Conventions
